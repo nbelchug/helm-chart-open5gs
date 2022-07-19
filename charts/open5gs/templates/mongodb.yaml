@@ -79,6 +79,7 @@ spec:
       containers:
       - name: mongodb-sim-inject
         image: towards5gs/open5gs-dbctl
+        imagePullPolicy: {{ .Values.open5gs.image.pullPolicy }}
         command:
         - /bin/bash
         - -c
