@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  open5gs:
+  - apiVersion: v2
+    appVersion: 2.1.7
+    created: "2022-10-07T14:44:44.236217393Z"
+    description: A Helm chart for open5gs 5G Core
+    digest: ae7c2f751803a23ee13ddcba066985a516436ae30543230fc30e9b5b7a862629
+    name: open5gs
+    type: application
+    urls:
+    - https://github.com/nbelchug/helm-chart-open5gs/releases/download/open5gs-0.0.3/open5gs-0.0.3.tgz
+    version: 0.0.3
+generated: "2022-10-07T14:44:43.975940976Z"
